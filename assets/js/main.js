@@ -521,10 +521,9 @@ var parallelism = (function($) { var _ = {
 						var $item = $(this), $img = $item.find('img');
 
 						$img
-							.css('opacity', 0);
+							.css('opacity', 1);
 
 						$item
-							.css('background-image', 'url("' + $img.attr('src') + '")')
 							.css('background-position', 'center center')
 							.css('background-size', 'cover');
 
